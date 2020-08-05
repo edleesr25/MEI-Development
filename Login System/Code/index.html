@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="../Design/MainLogo-navy.png" type="image/png">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/53d8f34044.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Yantramanav:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="login.css">
+    <title>Login System</title>
+</head>
+<body>
+            <!-- Pop Up -->
+    <div class="popup">
+        <div class="popup-content">
+            <p>Welcome to this alpha testing. Please note that not all features will work and there will be bugs. Please <a href="mailto:edleesr25@herricksk12.org,mapengda25@herricksk12.org?subject=Contact%20Submit">contact us</a> if there are bugs.</p>
+            <button class="popupclr" id="alphatest-btn">Ok</button>
+        </div>
+    </div>
+
+    <!-- Alert -->
+    <div class="alert">
+        <p><i class="fas fa-exclamation-triangle"></i> This is an unstable Alpha Version. Please note that bugs may occur.</p>
+        <i class="fas fa-window-close" id="alert-close"></i>
+    </div>
+
+    <!-- Alert for less than 3 characters -->
+    <div class="alert" id="alert-l3">
+        <p><i class="fas fa-exclamation-triangle"></i> Username must be at least 3 characters.</p>
+        <i class="fas fa-window-close" id="alert-l3-close"></i>
+    </div>
+
+    <!-- Color Themes -->
+    <div class="modes-container">
+        <button id="regular-mode" class="modes">Regular Mode</button>
+        <button id="dark-mode" class="modes">Dark Mode</button>
+    </div>
+
+    <!-- Form -->
+    <div class="form-container">
+        <div class="top-admincode">
+            <h2>Log In</h2>
+            <p>Please log in with your admin code.</p>
+        </div>
+        <form action="">
+            <div class="formgroup-username">
+                <label for="adminusername">Admin Username</label>
+                <input type="text" name="adminusername" id="adminusername" placeholder ="Username">
+            </div>
+            <div class="formgroup-code">
+                <label for="admincode">Admin Code</label>
+                <input type="password" name="admincode" id="admincode" placeholder="Admin Code">
+            </div>
+            <p>Forgot your password? <br> Email <span>edleesr25@herricksk12.org</span>.</p>
+        </form>
+        <div class="button-container">
+            <button type="submit" id="submit-btn">Submit</button>
+        </div>
+        <p>Backend doesn't work? <br> Email <span>mapengda25@herricksk12.org</span>.</p>
+    </div>
+    <div class="form-bottom"></div>
+    
+    <!-- Footer -->
+    <div class="footer">
+        <p>Copyright &copy; 2020 MEI Developent Group Questions? <a href="mailto:edleesr25@herricksk12.org,mapengda25@herricksk12.org?subject=Contact%20Submit">Contact Us Here</a></p>
+    </div>
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+</html>
