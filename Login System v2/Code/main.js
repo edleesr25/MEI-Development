@@ -25,3 +25,11 @@ document.getElementsByClassName("submit")[0].addEventListener('click', function 
     var image = document.getElementById("image-value").value;
     document.body.style.backgroundImage = "url('" + image + "')";
 });
+// No Username 
+document.getElementById("login-btn").addEventListener('click', function () {
+    // Check if there is a username
+    if (document.getElementById("input-username").value == null) {
+        document.getElementById("input-username").setAttribute("placeholder", "Must Include Username");
+        document.querySelector("#input-username::placeholder").style.color = "red";
+    }
+});

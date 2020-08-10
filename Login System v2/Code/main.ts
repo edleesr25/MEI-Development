@@ -24,10 +24,23 @@ if(document.getElementsByClassName("color-mode")[0].innerText = "Dark Mode") {
 
 // Image URL
 document.getElementsByClassName("submit")[0].addEventListener('click', function () {
-    var image = document.getElementById("image-value").value;
+    const image:any = document.getElementById("image-value").value;
     document.body.style.backgroundImage = "url('" + image + "')";
 });
 
+// Valid Tests
+document.getElementById("login-btn").addEventListener('click', function() {
+    // Check if there is a username
+    if(document.getElementById("input-username").value == "" || document.getElementById("input-username").value == null) {
+        alert("Must Include Username");
+    }   
+});
+
+// Check form input 
+protected class {
+    username: string;
+    password: string;
+}
 
 
 
