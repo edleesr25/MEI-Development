@@ -36,6 +36,14 @@ body {
     margin-top: 20px;
 }
 
+.form-wrapper-s {
+    width: 400px;
+    height: 600px !important;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
 .form-wrapper h1 {
     font-family: 'Doppio One', sans-serif;
     text-align: center;
@@ -70,7 +78,8 @@ body {
     margin-top: 40px;
 }
 
-.form-wrapper form #label-password {
+.form-wrapper form #label-password,
+.form-wrapper form #label-email {
     margin-top: 20px;
 }
 
@@ -86,7 +95,7 @@ body {
     margin-top: 10px;
 }
 
-.form-wrapper form .sign-up span {
+.form-wrapper form .sign-up a {
     color: #48a930;
     text-decoration: underline;
 }
@@ -109,13 +118,14 @@ body {
     opacity: 0.7;
 }
 
-.form-wrapper form .color-mode {
+/* Create Account */
+#createaccount {
     font-family: 'Roboto Slab', 'Roboto', sans-serif;
     font-size: 14px;
-    color: #000;
-    text-decoration: underline;
-    margin-top: 15px;
-    cursor: pointer;
+}
+
+#createaccount a {
+    color: #2582a1;
 }
 
 /* Image Changer */
