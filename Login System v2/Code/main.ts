@@ -1,8 +1,22 @@
 // Image URL
-document.getElementById("image-btn")[0].addEventListener('click', function () {
-    const image:any = document.getElementById("image-value").value;
-    document.body.style.backgroundImage = "url('" + image + "')";
-});
+
+function imageChange() {
+    const imageChangeValue:any = document.getElementById("image-value").value;
+    document.querySelector("body").style.backgroundImage = `url('${imageChangeValue}')`;
+}
+
+document.getElementById("image-btn").addEventListener('click', imageChange);
+
+// Temporary Validation 
+function tempvalidate() {
+    if(document.getElementById("input-username").value == "Admin" && document.getElementById("input-password").value == "AdminPass") {
+        window.location.href = "example.com";
+    } else {
+        return;
+    }
+}
+
+document.getElementsById("login-btn").addEventListener('click', tempvalidate);
 
 
 
