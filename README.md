@@ -25,7 +25,7 @@ __TaskList__ Tasklist will be a feature packed web based task manager, for your 
 
 **Front End Developer: Isaac** Another core developer, although he is currently busy at this time, and will help more when he has more time. He is also a 13 year old middle school student who sometimes codes in his free time.
 
-**Backend Java Developer: Max Peng** Backend developer, hopefully we can make the backend of Login System using java, although we probably will switch to Node.js. 
+**Backend Java Developer: Max ** Backend developer, hopefully we can make the backend of Login System using java, although we probably will switch to Node.js. 
 
 **Feature Requesting**
 Email __edleesr25@herricksk12.org__ and __mapengda25@herricksk12.org__ with the Subject of FEATURE REQUEST. Make sure you are detailed on the feature request.
